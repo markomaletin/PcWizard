@@ -1,0 +1,173 @@
+
+
+.page-header img
+{
+	width: 200px;
+	height: auto;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+
+.page-header form
+{
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 40px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-default {
+    background-color:  #1cbbb4;
+    border-width: 0;
+   }
+
+.navbar-default .navbar-nav >li> a
+ {
+    color: white;
+    
+  }
+
+ .navbar-default .navbar-nav >li> a:hover
+ {
+ 	background-color: #ff471a;
+ 	color: white;
+ }
+
+ .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, nav>.open>a:hover  {
+    color: white;
+    background-color: #222;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #222;
+}
+
+.btn-default, .btn-primary, .btn-primary:focus, .btn-default:focus {
+    color: white;
+    background-color: #222;
+    border-color: #4d4d4d;
+}
+
+.btn-default:hover, .btn-primary:hover {
+    color: white;
+    background-color: #ff471a;
+    border-color: #ff471a;
+}
+
+
+.page-header {
+	background-color: #222;
+    padding-bottom: 9px;
+    margin: 0;
+    padding-top: 10px;
+    border-width: 0;
+}
+
+.page-header> .row{
+
+ width: 100%;
+ }
+
+h2.page-header {
+	background-color: transparent;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+h1 small
+{
+    color: white;
+    font-variant: small-caps;
+}
+
+
+.navbar-default .active
+{
+	 background-color:  #222;
+}
+
+
+ul.nav-pills, .nav-stacked
+{
+    border-radius: 5px;
+    color: white;
+    background-color: #222;
+}
+
+
+.nav>li>a
+{
+    color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color:   #ff471a;
+    color: white;
+}
+
+
+table
+{
+    border-color: rgba(192,192,192,0.4);
+
+}
+
+tr
+{
+    border-width: 1px;
+    height: 40px;
+    border-style: solid;
+    border-color: rgba(192,192,192,0.4);
+}
+
+h4.page-header {
+    background-color: transparent;
+}
+
+.panel {
+color: #ccc;
+background-color: #222;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #ccc;
+    margin:20px;
+}
+
+#footer a:hover{
+
+    color: white;
+}
+
+.container
+{
+    min-height: 55vh;
+}
+
+h1 small 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 750px)
+{
+    h1 small {
+        display: none;
+    }
+
+}
+
